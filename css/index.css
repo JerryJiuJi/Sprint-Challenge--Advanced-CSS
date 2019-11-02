@@ -254,3 +254,9 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .nav {
+    background-color: blue;
+    flex-direction: column;
+  }
+}
